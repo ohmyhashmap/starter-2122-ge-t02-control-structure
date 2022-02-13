@@ -20,13 +20,12 @@ Input:
 ```
 
 Output:
+```bash
 ---      
 15000.00
-
-```bash
-
-
 ```
+
+
 ## Tugas 2 (t02_02.c, 20 points)
 
 
