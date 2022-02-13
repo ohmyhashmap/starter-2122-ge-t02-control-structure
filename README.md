@@ -28,6 +28,7 @@ Output:
 
 ## Tugas 2 (t02_02.c, 20 points)
 
+### Soal Cerita On Progress
 
 Input 1:
 
@@ -73,8 +74,9 @@ staple food
 ```
 
 
-## ## Tugas 3 (t02_02.c, 40 points)
+## Tugas 3 (t02_02.c, 40 points)
 
+### Soal Cerita On Progress
 
 masukan untuk baris pertama merupakan ``mode`` operasi yang dipilih, masukan baris kedua merupakan bilangan pertama yang akan dioperasikan:
 ```bash
