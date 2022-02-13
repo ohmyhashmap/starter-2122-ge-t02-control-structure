@@ -11,14 +11,98 @@ Setiap pembelian buku diatas 50000 akan diberi potongan harga sebanyak 5%, pembe
 
 Dalam programn yang diimpikan mereka akan membaca sebuah masukan dari stdin jumlah buku yang dibeli dan harganya. Berdasarkan masukan tersebut maka akan dituliskan satu baris keluaran berupa total yang akan dibayar pembeli setelah mendapatkan potongan.
 
+Input:
 
-## Tugas 2 (t02_02.c, 40 points)
+```bash
+3
+5000
+
+```
+
+Output:
+---      
+15000.00
+
+```bash
 
 
-## ## Tugas 3 (t02_02.c, 20 points)
+```
+## Tugas 2 (t02_02.c, 20 points)
 
 
+Input 1:
 
+```bash
+1
+```
+
+Output:
+
+```bash
+staple food
+```
+
+Input 2:
+
+```bash
+3
+```
+
+Output:
+
+```bash
+vegetables
+side dishes
+staple food
+```
+
+Input 3:
+
+```bash
+5
+```
+
+Output:
+
+```bash
+perfect
+milk
+fruits
+vegetables
+side dishes
+staple food
+```
+
+
+## ## Tugas 3 (t02_02.c, 40 points)
+
+
+masukan untuk baris pertama merupakan ``mode`` operasi yang dipilih, masukan baris kedua merupakan bilangan pertama yang akan dioperasikan:
+```bash
+1
+2
+```
+maka akan dikeluarkan output:
+```bash
+2
+```
+kemudian lanjutkan dengan masukan berikutnya:
+```bash
+3
+```
+maka akan menghasilkan output:
+```bash
+5
+```
+kemudian coba dengan masukan berikut:
+```bash
+-1
+```
+maka akan dihasilkan keluaran:
+```bash
+4
+0
+```
 
 ## Reporting
 
