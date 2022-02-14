@@ -40,6 +40,7 @@ Output:
 
 ```bash
 staple food
+you need side dishes
 ```
 
 Input 2:
@@ -54,6 +55,7 @@ Output:
 vegetables
 side dishes
 staple food
+good
 ```
 
 Input 3:
@@ -65,12 +67,12 @@ Input 3:
 Output:
 
 ```bash
-perfect
 milk
 fruits
 vegetables
 side dishes
 staple food
+perfect
 ```
 
 
