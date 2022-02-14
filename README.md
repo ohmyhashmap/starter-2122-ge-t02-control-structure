@@ -28,9 +28,27 @@ Output:
 
 ## Tugas 2 (t02_02.c, 20 points)
 
-### Soal Cerita On Progress
+Pada hari senin kemarin, saat perjalanan ke rumah sakit untuk menjenguk temannya, Ucok bertemu seorang ahli gizi. Di dalam perjalanan, Ucok berbincang bersama sang Ahli gizi tersebut. Ucok ingin tahu lebih banyak mengenai makanan 4 sehat 5 sempurna yang sudah menjadi kampanye kesehatan sejak dahulu. 
+Dari perbincangan bersama sang ahli gizi, Ucok mengetahui banyak hal baru, yaitu: 
+1. Makanan pokok (staple food) biasanya memiliki kandungan karbohidrat yang bermanfaat sebagai sumber energi bagi tubuh. Kentang, Sagu, Gandum, Ubi, Singkong, atau Jagung merupakan jenis makanan pokok.
+2. Lauk pauk (side dishes) merupakan bahan makanan yang mengandung kadar protein tinggi. Protein dapat diperoleh dari dua jenis makanan, yakni nabati dan hewani. 
+3. Sayuran (vegetables) memiliki kandungan serat yang cukup tinggi sehingga baik untuk menjaga kesehatan saluran pencernaan. Selain itu sayuran juga mengandung berbagai vitamin dan mineral yang diperlukan oleh tubuh untuk bekerja dengan baik.
+4. Ketika kita mengonsumsi buah (fruits), suplai energi dapat bertambah dengan cepat. Tambahan tenaga ini sangat penting untuk menghadapi jadwal yang padat.
+5. Susu (milk) menjadi pelengkap dalam makanan 4 sehat 5 sempurna yang merupakan tambahan nutrisi. Kandungan susu yaitu kalsium yang bermanfaat untuk menjaga kesehatan tulang.
 
-Input 1:
+Selain itu, sang ahli gizi juga mengkategorikan menu makanan 4 sehat 5 sempurna tersebut:
+1. you need side dishes, apabila kamu hanya makan makanan pokok.
+2. you need vegetables, apabila kamu hanya makan makanan pokok dan lauk pauk.
+3. good, apabila kamu memakan sayur.
+4. very good, apabila kamu memakan buah.
+5. perfect, apabila kamu menambah susu.
+
+Setelah mendengar penjelasan sang ahli gizi, Ucok jadi ingin mengembangkan sebuah program yang menampilkan kategori menu makanan 4 sehat 5 sempurna tersebut.
+Tugas Anda adalah membantu Ucok untuk mewujudkan keinginannya. Perhatikan Example 1 dan Example 2.
+
+
+### Example 1
+Input:
 
 ```bash
 1
@@ -43,6 +61,7 @@ staple food
 you need side dishes
 ```
 
+### Example 2
 Input 2:
 
 ```bash
@@ -56,23 +75,6 @@ vegetables
 side dishes
 staple food
 good
-```
-
-Input 3:
-
-```bash
-5
-```
-
-Output:
-
-```bash
-milk
-fruits
-vegetables
-side dishes
-staple food
-perfect
 ```
 
 
