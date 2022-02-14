@@ -80,31 +80,34 @@ staple food
 
 masukan untuk baris pertama merupakan ``mode`` operasi yang dipilih, masukan baris kedua merupakan bilangan pertama yang akan dioperasikan:
 ```bash
++
 1
-2
+
 ```
-maka akan dikeluarkan output:
+maka keluarannya:
 ```bash
-2
+1
+
 ```
 kemudian lanjutkan dengan masukan berikutnya:
 ```bash
-3
+2
+
 ```
-maka akan menghasilkan output:
+maka keluarannya:
 ```bash
-5
+3
+
 ```
-kemudian coba dengan masukan berikut:
+kemudian masukan berikutnya:
 ```bash
 -1
 ```
-maka akan dihasilkan keluaran:
+maka keluarannya:
 ```bash
-4
 0
 ```
-
+Program ini akan keluar ketika Anda sudah melakukan input kurang dari lima ``5`` kali. 
 ## Reporting
 
 Presentasikan pekerjaan anda dalam sebuah video. Pada presentasi:
