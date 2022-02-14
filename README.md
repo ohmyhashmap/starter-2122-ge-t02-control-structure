@@ -1,24 +1,36 @@
 # T02 Control Structe
 
 ## Tugas 1 (t02_01.c, 40 points)
-Ucok dan Butet sudah sahabat sejak kecil. Keduanya bercita-cita ingin menjadi duo enterpreneur muda di masa mendatang. Akhir-akhir ini Ucok sedang memikirkan sesuatu, suatu ide besar untuk membangun sebuah start up company. Ucok terinspirasi Amazon.com, toko online yang dimulai dari menjual buku.
+Toko yang di rintis Ucok dan Butet sejak dulu sudah semakin berkembang. Menjadi enterpreneur yang di cita-citakan sejak dulu sudah terwujud. Namun tidak cukup sampai disana, akhir-akhir ini Ucok sedang memikirkan sesuatu, suatu ide besar untuk menarik minat pelanggan. Kemudian Butet hadir dengan hasil riset yang dilakukannya beberapa minggu terakhir. Butet terinspirasi dari beberapa toko online yang penjualannya bisa mencapai ratusan buku per bulannya. Kemudian Butet memberitahu Ucok bahwa toko yang mereka rintis harus memberikan layanan dan penawaran terbaik bagi pelanggannya. Dari riset yang dilakukan Butet, penawaran terbaik dapat diwujudkan melalui pemberian diskon. 
+Setelah dipikir-pikir, pemberian diskon merupakan ide yang luar biasa, Ucok pun setuju. Dari hasil diskusi yang mereka lakukan, maka didapatkan kesimpulan:
+1. Setiap pembelian buku diatas 50000 akan diberi potongan harga sebanyak 5%
+2. Setiap pembelian diatas atau sama dengan 100000 maka akan diberi potongan harga 10% 
+3. Setiap pembelian diatas 500000 akan diberi potongan 15%. 
 
-Sabtu lalu, Ucok menyampaikan idenya pada sang sahabat, Butet. Menurut Butet, untuk menjadi besar tentu memerlukan waktu, usaha, komitmen, dan yang terpenting adalah memulai dari hal kecil. Ucok dan Butet pun bertekad untuk memulai mimpi besar mereka hari ini.
+Untuk mewujudkan ide cemerlang ini, Ucok dan Butet memerlukan bantuan Anda untuk membangun sebuah program yang membaca jumlah buku yang dibeli dan harganya. Berdasarkan masukan tersebut maka akan dihasilkan dua baris keluaran berupa total potongan yang didapatkan dan total yang akan dibayar setelah mendapatkan potongan. Perhatikan Example 1 dan Example 2.
 
-Ucok dan Butet kemudian berpikir untuk menginisiasi mimipi besar mereka membangun start up dalam bentuk program penjualan buku sederhana. Dalam program ini nantinya setiap pembeli akan diberi penawaran menarik, tujuannya supaya pembeli datang untuk membeli banyak buku.
+### Example 1
+Input:
 
-Setiap pembelian buku diatas 50000 akan diberi potongan harga sebanyak 5%, pembelian diatas 100000 maka akan diberi potongan harga 10% dan pembelian diatas 500000 akan diberi potongan 15%. 
+```bash
+5
+50000
 
-Dalam programn yang diimpikan mereka akan membaca sebuah masukan dari stdin jumlah buku yang dibeli dan harganya. Berdasarkan masukan tersebut maka akan dituliskan satu baris keluaran berupa total yang akan dibayar pembeli setelah mendapatkan potongan.
+```
+Output:
+```bash
+25000.00
+225000.00
+```
 
+### Example 2
+Apabila tidak ada potongan yang diperoleh, maka output untuk total potongan yang akan ditampilkan akan digantikan dengan ```---``` (trippled dashes)
 Input:
 
 ```bash
 3
 5000
-
 ```
-
 Output:
 ```bash
 ---      
