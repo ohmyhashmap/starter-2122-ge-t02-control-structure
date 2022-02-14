@@ -92,28 +92,31 @@ good
 
 ## Tugas 3 (t02_02.c, 40 points)
 
-### Soal Cerita On Progress
+Kembangkanlah sebuah program yang akan menerima jenis operator ('+', '-',* ), pada baris kedua program akan menerima satu bilangan yang akan di operasikan.
 
-masukan untuk baris pertama merupakan ``mode`` operasi yang dipilih, masukan baris kedua merupakan bilangan pertama yang akan dioperasikan:
+### Example 1:
+Input:
 ```bash
 +
 1
-
 ```
-maka keluarannya:
+selanjutnya program akan menampilkan:
 ```bash
++
 1
-
+1
 ```
 kemudian lanjutkan dengan masukan berikutnya:
 ```bash
 2
-
 ```
-maka keluarannya:
+maka program akan menampilkan:
 ```bash
++
+1
+1
+2
 3
-
 ```
 kemudian masukan berikutnya:
 ```bash
@@ -121,9 +124,71 @@ kemudian masukan berikutnya:
 ```
 maka keluarannya:
 ```bash
++
+1
+1
+2
+3
+-1
 0
 ```
-Program ini akan keluar ketika Anda sudah melakukan input kurang dari lima ``5`` kali. 
+
+### Example 2:
+Input:
+```bash
+*
+1
+```
+selanjutnya program akan menampilkan:
+```bash
+*
+1
+1
+```
+kemudian lanjutkan dengan masukan berikutnya:
+```bash
+2
+```
+maka program akan menampilkan:
+```bash
+*
+1
+1
+2
+2
+```
+kemudian masukan berikutnya:
+```bash
+5
+```
+maka keluarannya:
+```bash
+*
+1
+1
+2
+2
+5
+10
+```
+kemudian masukan berikutnya:
+```bash
+-1
+```
+maka keluarannya:
+```bash
+*
+1
+1
+2
+2
+5
+10
+-1
+0
+```
+
+Perlu diperhatikan: program ini akan keluar ketika Anda sudah melakukan input kurang dari lima ``5`` kali. 
 ## Reporting
 
 Presentasikan pekerjaan anda dalam sebuah video. Pada presentasi:
