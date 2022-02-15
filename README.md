@@ -15,13 +15,13 @@ Bontor sebagai pelanggan pertama toko mereka hari ini ingin membeli Buku Erlangg
 ```bash
 5
 50000
-
 ```
 Kemudian pada program akan ditampilkan 2 baris output, baris pertama berupa potongan harga yang diperoleh Bontor dan baris kedua total yang akan dibayar Bontor setelah mendapatkan potongan:
 
 ```bash
 25000.00
 225000.00
+
 
 ```
 
@@ -31,7 +31,6 @@ Karena penawaran yang sangat menarik, keesokan harinya Bontor kembali ke toko un
 ```bash
 3
 5000
-
 ```
 
 Kemudian pada program akan menampilkan output berupa potongan harga yang diperoleh Bontor dan total yang akan dibayar setelah mendapatkan potongan, namun kali ini Bontor tidak memperoleh potongan karena total belanjanya kurang dari ```50.000```, maka untuk baris pertama total potongan akan digantikan dengan ```---``` (trippled dashes) dan baris kedua adalah total yang akan dibayar Bontor:
@@ -40,6 +39,7 @@ Output:
 ```bash
 ---      
 15000.00
+
 
 ```
 
@@ -77,6 +77,7 @@ kemudian program akan menampilkan 2 baris keluaran, baris pertama merupakan menu
 staple food
 you need side dishes
 
+
 ```
 
 ### Example 2
@@ -92,6 +93,7 @@ vegetables
 side dishes
 staple food
 good
+
 
 ```
 
@@ -141,6 +143,7 @@ maka program akan menampilkan 1 baris untuk operan yang kita input, 1 baris untu
 3
 -1
 0
+
 
 ```
 
@@ -199,6 +202,7 @@ maka keluarannya seperti berikut ini, dan program akan keluar:
 30
 1
 30
+
 
 ```
 
