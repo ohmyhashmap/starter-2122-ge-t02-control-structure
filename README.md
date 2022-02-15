@@ -98,25 +98,29 @@ good
 
 ## Tugas 3 (t02_02.c, 40 points)
 
-Kembangkanlah sebuah program yang akan menerima jenis operator ('+', '-',* ), pada baris kedua program akan menerima satu bilangan yang akan di operasikan.
+Menjadi seorang enterpreneur adalah suatu kebanggaan bagi Ucok. Kegiatan ucok setiap harinya Ucok mengenali produk baru, menentukan cara produksi baru, menyusun manajemen operasi untuk pengadaan produk baru, memasarkan, serta mengatur permodalan operasi. Dari pagi hingga sore hari Ucok sibuk mengelola toko yang dibuka olehnya dan Butet. Pada malam harinya Ucok lebih suka menemani Poltak sang adik untuk bermain sambil belajar. Hari ini Ucok dan Poltak belajar mengenai Operasi perhitungan, yaitu penjumlahan, pengurangan dan perkalian. Pertama mereka harus menginisialisasi atau set nilai bilangan pertama untuk setiap operasi. Untuk penjumlahan adalah `0`, untuk pengurangan adalah `0` dan untuk perkalian di set `1` supaya hasil perkalian berikutnya tidak `0`. Kedua mereka  memilih operan apa yang akan digunakan. Ketiga mereka akan memasukkan bilangan kedua yang akan dioperasikan. Setelah itu maka akan ditampilkan keluaran berupa total bilangan yang dihasilkan sesuai dengan operan yang dipilih.
+Ucok dan Poltak berencana operasi perhitungan ini akan dibuat dalam sebuah program C, oleh karena itu mereka membutuhkan Anda untuk membangun programnya.
+Namun sebelumnya Poltak ingin menambahkan satu aturan dalam operasi perhitungan ini. Operasi perhitungan akan berakhir bila melakukan input kurang dari lima ``5`` kali atau memasukkan input ``-1``.   
+Perhatikan Example berikut untuk menambah pemahaman Anda.
 
 ### Example 1:
+Setelah Anda set nilai bilangan untuk setiap operasi, diawal program akan menerima jenis operator yang akan digunakan (`+`, `-`, `*` ), pada baris kedua program akan menerima masukan satu bilangan yang akan di operasikan. Misalnya disini akan dipilih jenis opertor penjumlahan `+`
 Input:
 ```bash
 +
 1
 ```
-selanjutnya program akan menampilkan:
+Selanjutnya program akan menampilkan, 1 baris untuk operan yang kita input, 1 baris untuk bilangan yang dioperasikan dan 1 baris untuk hasil operasi ``(0+1=1)``
 ```bash
 +
 1
 1
 ```
-kemudian lanjutkan dengan masukan berikutnya:
+kemudian masukan bilangan yang akan dioperasikan berikutnya:
 ```bash
 2
 ```
-maka program akan menampilkan:
+maka program akan menampilkan 1 baris untuk operan yang kita input, 1 baris untuk bilangan pertama yang akan dioperasikan, 1 baris untuk hasil operasi penjumlahannya ``(0+1=1)``, 1 baris untuk bilangan kedua yang akan dioperasikan, dan 1 baris untuk hasil operasinya ``(1+2=3)`` 
 ```bash
 +
 1
@@ -124,11 +128,11 @@ maka program akan menampilkan:
 2
 3
 ```
-kemudian masukan berikutnya:
+kemudian bila bilangan yang akan dioperasikan berikutnya adalah `-1`:
 ```bash
 -1
 ```
-maka keluarannya:
+maka program akan menampilkan 1 baris untuk operan yang kita input, 1 baris untuk bilangan pertama yang akan dioperasikan, 1 baris untuk hasil operasi penjumlahannya ``(0+1=1)``, 1 baris untuk bilangan kedua yang akan dioperasikan, dan 1 baris untuk hasil operasinya ``(1+2=3)``, 1 baris inputan ``-1``, 1 baris untuk 0 dan program akan keluar.
 ```bash
 +
 1
@@ -140,63 +144,63 @@ maka keluarannya:
 ```
 
 ### Example 2:
+Pada contoh kedua ini, operai yang dipilih adalah operasi perkalian maka masukan baris pertama adalah `*`. Kemudian masukan baris kedua adalah bilangan pertama yang akan dioperasikan dengan bilangan yang telah di inisialisai sebelumnya.
 Input:
 ```bash
 *
-1
+2
 ```
-selanjutnya program akan menampilkan:
+selanjutnya program akan menampilkan 1 baris untuk operasi yang dipilih, 1 baris untuk bilangan yang dikalikan dan 1 baris untuk hasik perkalian `(1*2=2)`:
 ```bash
 *
-1
-1
-```
-kemudian lanjutkan dengan masukan berikutnya:
-```bash
+2
 2
 ```
-maka program akan menampilkan:
+kemudian masukan bilangan yang akan dioperasikan berikutnya, misalnya:
+```bash
+3
+```
+maka program akan menampilkan 1 baris untuk operasi yang dipilih, 1 baris untuk bilangan pertama yang dikalikan, 1 baris untuk hasik perkalian pertama `(1*2=2)`, 1 baris bilangan yang akan dikalikan berikutnya `3`, dan 1 baris untuk hasil perkaliannya `(2*3=6)`: 
 ```bash
 *
-1
-1
 2
 2
+3
+6
 ```
-kemudian masukan berikutnya:
+kemudian masukan bilangan yang ketiga:
 ```bash
 5
 ```
 maka keluarannya:
 ```bash
 *
-1
-1
 2
 2
+3
+6
 5
-10
+30
 
 ```
-kemudian masukan berikutnya:
+kemudian masukan yang ke empat:
 ```bash
--1
+1
 ```
-maka keluarannya:
+maka keluarannya seperti berikut ini, dan program akan keluar:
 ```bash
 *
-1
-1
 2
 2
+3
+6
 5
-10
--1
-0
+30
+1
+30
 
 ```
 
-Perlu diperhatikan: program ini akan keluar ketika Anda sudah melakukan input kurang dari lima ``5`` kali. 
 ## Reporting
 
 Presentasikan pekerjaan anda dalam sebuah video. Pada presentasi:
