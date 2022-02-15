@@ -10,14 +10,14 @@ Setelah dipikir-pikir, pemberian diskon merupakan ide yang luar biasa, Ucok pun 
 Untuk mewujudkan ide cemerlang ini, Ucok dan Butet memerlukan bantuan Anda untuk membangun sebuah program yang membaca jumlah buku yang dibeli dan harganya. Berdasarkan masukan tersebut maka akan dihasilkan dua baris keluaran berupa total potongan yang didapatkan dan total yang akan dibayar setelah mendapatkan potongan. Perhatikan Example 1 dan Example 2.
 
 ### Example 1
-Bontor sebagai pelanggan pertama toko mereka hari ini ingin membeli Buku Erlangga Terampil Berhitung Matematika Kelas 6 SD sebanyak ```5``` buku dengan harga per bukunya adalah ```50,000 ```. Maka Ucok akan input pada program:
+Bontor sebagai pelanggan pertama toko mereka hari ini ingin membeli Buku Erlangga Terampil Berhitung Matematika Kelas 6 SD sebanyak ```5``` buku dengan harga per bukunya adalah ```50,000 ```. Maka Ucok akan input pada program, untuk baris pertama adalah jumlah buku dan baris kedua adalah harga buku:
 
 ```bash
 5
 50000
 
 ```
-Kemudian pada program akan terlihat output berupa potongan harga yang diperoleh Bontor dan total yang akan dibayar setelah mendapatkan potongan:
+Kemudian pada program akan ditampilkan 2 baris output, baris pertama berupa potongan harga yang diperoleh Bontor dan baris kedua total yang akan dibayar Bontor setelah mendapatkan potongan:
 
 ```bash
 25000.00
@@ -26,7 +26,7 @@ Kemudian pada program akan terlihat output berupa potongan harga yang diperoleh 
 ```
 
 ### Example 2
-Karena penawaran yang sangat menarik, keesokan harinya Bontor kembali ke toko untuk membeli Buku Cerita Rakyat Nusantara sebanyak ```3``` dengan harga per bukunya adalah ```50,000```. Maka Ucok akan input pada program:
+Karena penawaran yang sangat menarik, keesokan harinya Bontor kembali ke toko untuk membeli Buku Cerita Rakyat Nusantara sebanyak ```3``` dengan harga per bukunya adalah ```50,000```. Maka Ucok akan input pada program, baris pertama jumlah buku yaitu sebanyak `3` dan harga buku yaitu `5,000`:
 
 ```bash
 3
@@ -34,7 +34,7 @@ Karena penawaran yang sangat menarik, keesokan harinya Bontor kembali ke toko un
 
 ```
 
-Kemudian pada program akan terlihat output berupa potongan harga yang diperoleh Bontor dan total yang akan dibayar setelah mendapatkan potongan, namun kali ini Bontor tidak memperoleh potongan karena total belanjanya kurang dari ```50.000```, maka output untuk total potongan yang akan ditampilkan akan digantikan dengan ```---``` (trippled dashes)
+Kemudian pada program akan menampilkan output berupa potongan harga yang diperoleh Bontor dan total yang akan dibayar setelah mendapatkan potongan, namun kali ini Bontor tidak memperoleh potongan karena total belanjanya kurang dari ```50.000```, maka untuk baris pertama total potongan akan digantikan dengan ```---``` (trippled dashes) dan baris kedua adalah total yang akan dibayar Bontor:
 
 Output:
 ```bash
@@ -71,7 +71,7 @@ Jika Ucok memilih menu level 1, maka Ia akan input ```1``` pada program.
 1
 ```
 
-kemudian program akan menampilkan 2 baris keluaran, baris pertama merupakan menu level 1 yaitu staple food dan kesimpulannya "you need side dishes", contoh output berikut ini:
+kemudian program akan menampilkan 2 baris keluaran, baris pertama merupakan menu level 1 yaitu staple food dan kesimpulannya "you need side dishes", contoh output:
 
 ```bash
 staple food
@@ -85,7 +85,7 @@ Untuk contoh kedua, jika Ucok memilih menu level 3, maka Ia akan input ```3``` p
 ```bash
 3
 ```
-kemudian program akan menampilkan menu level 3 dan kesimpulannya, contoh output berikut ini:
+kemudian program akan menampilkan menu level 3 dan 1 baris untuk kesimpulannya, contoh output:
 
 ```bash
 vegetables
@@ -98,13 +98,13 @@ good
 
 ## Tugas 3 (t02_02.c, 40 points)
 
-Menjadi seorang enterpreneur adalah suatu kebanggaan bagi Ucok. Kegiatan ucok setiap harinya Ucok mengenali produk baru, menentukan cara produksi baru, menyusun manajemen operasi untuk pengadaan produk baru, memasarkan, serta mengatur permodalan operasi. Dari pagi hingga sore hari Ucok sibuk mengelola toko yang dibuka olehnya dan Butet. Pada malam harinya Ucok lebih suka menemani Poltak sang adik untuk bermain sambil belajar. Hari ini Ucok dan Poltak belajar mengenai Operasi perhitungan, yaitu penjumlahan, pengurangan dan perkalian. Pertama mereka harus menginisialisasi atau set nilai bilangan pertama untuk setiap operasi. Untuk penjumlahan adalah `0`, untuk pengurangan adalah `0` dan untuk perkalian di set `1` supaya hasil perkalian berikutnya tidak `0`. Kedua mereka  memilih operan apa yang akan digunakan. Ketiga mereka akan memasukkan bilangan kedua yang akan dioperasikan. Setelah itu maka akan ditampilkan keluaran berupa total bilangan yang dihasilkan sesuai dengan operan yang dipilih.
+Menjadi seorang enterpreneur adalah suatu kebanggaan bagi Ucok. Kegiatan ucok setiap harinya Ucok mengenali produk baru, menentukan cara produksi baru, menyusun manajemen operasi untuk pengadaan produk baru, memasarkan, serta mengatur permodalan operasi. Dari pagi hingga sore hari Ucok sibuk mengelola toko yang dibuka olehnya dan Butet. Pada malam harinya Ucok lebih suka menemani Poltak sang adik untuk bermain sambil belajar. Hari ini Ucok dan Poltak belajar mengenai Operasi perhitungan, yaitu penjumlahan, pengurangan dan perkalian. Pertama, mereka harus menginisialisasi atau set nilai bilangan pertama untuk setiap operasi. Untuk penjumlahan adalah `0`, untuk pengurangan adalah `0` dan untuk perkalian di set `1` supaya hasil perkalian berikutnya tidak `0`. Kedua, mereka  memilih operan apa yang akan digunakan. Ketiga, mereka akan memasukkan bilangan kedua yang akan dioperasikan. Setelah itu maka akan ditampilkan keluaran berupa total bilangan yang dihasilkan sesuai dengan operan yang dipilih.
 Ucok dan Poltak berencana operasi perhitungan ini akan dibuat dalam sebuah program C, oleh karena itu mereka membutuhkan Anda untuk membangun programnya.
-Namun sebelumnya Poltak ingin menambahkan satu aturan dalam operasi perhitungan ini. Operasi perhitungan akan berakhir bila melakukan input kurang dari lima ``5`` kali atau memasukkan input ``-1``.   
+Namun sebelumnya, Poltak ingin menambahkan satu aturan dalam operasi perhitungan ini. Operasi perhitungan akan berakhir bila melakukan input kurang dari lima ``5`` kali atau memasukkan input ``-1``.   
 Perhatikan Example berikut untuk menambah pemahaman Anda.
 
 ### Example 1:
-Setelah Anda set nilai bilangan untuk setiap operasi, diawal program akan menerima jenis operator yang akan digunakan (`+`, `-`, `*` ), pada baris kedua program akan menerima masukan satu bilangan yang akan di operasikan. Misalnya disini akan dipilih jenis opertor penjumlahan `+`
+Setelah Anda set nilai bilangan untuk setiap operasi, diawal program akan menerima 1 jenis operator yang akan digunakan (`+`, `-`, `*` ), pada baris kedua program akan menerima masukan satu bilangan yang akan di operasikan. Misalnya disini akan dipilih jenis opertor penjumlahan `+` dan bilangan yang akan dioperasikan adalah `1`.
 Input:
 ```bash
 +
