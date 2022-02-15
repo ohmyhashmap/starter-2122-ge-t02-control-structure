@@ -141,6 +141,7 @@ maka program akan menampilkan 1 baris untuk operan yang kita input, 1 baris untu
 3
 -1
 0
+
 ```
 
 ### Example 2:
