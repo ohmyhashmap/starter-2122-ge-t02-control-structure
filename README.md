@@ -3,9 +3,9 @@
 ## Tugas 1 (t02_01.c, 40 points)
 Toko yang di rintis Ucok dan Butet sejak dulu sudah semakin berkembang. Menjadi enterpreneur yang di cita-citakan sejak dulu sudah terwujud. Namun tidak cukup sampai disana, akhir-akhir ini Ucok sedang memikirkan sesuatu, suatu ide besar untuk menarik minat pelanggan. Kemudian Butet hadir dengan hasil riset yang dilakukannya beberapa minggu terakhir. Butet terinspirasi dari beberapa toko online yang penjualannya bisa mencapai ratusan buku per bulannya. Kemudian Butet memberitahu Ucok bahwa toko yang mereka rintis harus memberikan layanan dan penawaran terbaik bagi pelanggannya. Dari riset yang dilakukan Butet, penawaran terbaik dapat diwujudkan melalui pemberian diskon. 
 Setelah dipikir-pikir, pemberian diskon merupakan ide yang luar biasa, Ucok pun setuju. Dari hasil diskusi yang mereka lakukan, maka didapatkan kesimpulan:
-1. Setiap pembelian buku diatas 50,000 akan diberi potongan harga sebanyak 5%
-2. Setiap pembelian diatas atau sama dengan 100,000 maka akan diberi potongan harga 10% 
-3. Setiap pembelian diatas 500,000 akan diberi potongan 15%. 
+1. Setiap pembelian buku diatas ```50,000``` akan diberi potongan harga sebanyak 5%
+2. Setiap pembelian diatas atau sama dengan ```100,000``` maka akan diberi potongan harga 10% 
+3. Setiap pembelian diatas ```500,000``` akan diberi potongan 15%. 
 
 Untuk mewujudkan ide cemerlang ini, Ucok dan Butet memerlukan bantuan Anda untuk membangun sebuah program yang membaca jumlah buku yang dibeli dan harganya. Berdasarkan masukan tersebut maka akan dihasilkan dua baris keluaran berupa total potongan yang didapatkan dan total yang akan dibayar setelah mendapatkan potongan. Perhatikan Example 1 dan Example 2.
 
