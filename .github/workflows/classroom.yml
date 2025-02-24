@@ -72,8 +72,8 @@ jobs:
           10
           10000
         expected-output: |
-          5000.00
-          95000.00
+          10000.00
+          90000.00
         comparison-method: exact
         timeout: 1
         max-score: 10

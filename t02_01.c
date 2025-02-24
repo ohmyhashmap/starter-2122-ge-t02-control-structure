@@ -13,7 +13,7 @@ int main(int _argv, char **_argc)
     printf("%.2f\n", total_pembelian * .15); // total harga = 5 * 50000 = 250000
     printf("%.2f\n", total_pembelian * .85); // 100 % total harga - 15 % total diskon  = 85 % total harga
   }
-  else if (total_pembelian > 100000) // disini ada kegagalan repo ini padahal sudah di buat di soal kalo 10 % diskon terkhusus untuk pembelian >=100000 terpaksa saya ganti
+  else if (total_pembelian >= 100000) // disini ada kegagalan repo ini padahal sudah di buat di soal kalo 10 % diskon terkhusus untuk pembelian >=100000 terpaksa saya ganti
   {
     printf("%.2f\n", total_pembelian * .1);
     printf("%.2f\n", total_pembelian * .9);
